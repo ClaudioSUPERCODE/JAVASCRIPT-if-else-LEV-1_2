@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <form onsubmit="return false" action="">
+        <div>
+            <label for="">Wetter Qualität</label>
+            <input type="number" min="0" max="10" name="" id="inputWetter">
+            <input type="button" value="check" onclick="weather()">
+        </div>
+        <div>
+            <label for="">Das Wetter ist </label>
+            <p id="outputWetter"></p>
+        </div>
+    </form>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
